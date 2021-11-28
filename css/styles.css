@@ -1,5 +1,5 @@
 :root {
-  --primary-text-color: color: #212121; ;
+  --primary-text-color: #212121;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 
 /* site-nav */
 .site-nav .link {
-  color: var(--primary-text-color); 
+  color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -106,17 +106,23 @@ body {
   color: #2196f3;
 }
 
-
-
 /*main-portfolio*/
-.content{
-background: #F5F4FA;
+.content {
+  background: #f5f4fa;
 }
-.content-button{font-family: Roboto;
-font-style: normal; color: #212121;}
+.content-button {
+  font-family: Roboto;
+  font-style: normal;
+  color: #212121;
+}
 .content-button:hover,
-.content-button:focus{color: #2196f3;
+.content-button:focus {
+  color: #2196f3;
 }
 /* list-photo */
-.list-title{color: #212121;}
-.list-lead{color: #757575;}
+.list-title {
+  color: #212121;
+}
+.list-lead {
+  color: #757575;
+}
