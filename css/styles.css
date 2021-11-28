@@ -1,3 +1,7 @@
+:root {
+  --primary-text-color: color: #212121; ;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -10,11 +14,7 @@ body {
 /* logo */
 .link {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  color: black;
+  color: var(--primary-text-color);
 }
 .link-logo {
   color: #2196f3;
@@ -22,7 +22,7 @@ body {
 
 /* site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color); 
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -105,3 +105,18 @@ body {
 .address-text:focus {
   color: #2196f3;
 }
+
+
+
+/*main-portfolio*/
+.content{
+background: #F5F4FA;
+}
+.content-button{font-family: Roboto;
+font-style: normal; color: #212121;}
+.content-button:hover,
+.content-button:focus{color: #2196f3;
+}
+/* list-photo */
+.list-title{color: #212121;}
+.list-lead{color: #757575;}
